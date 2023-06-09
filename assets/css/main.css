@@ -2121,6 +2121,11 @@ input, select, textarea {
 				background: #7c8081;
 				color: #fff;
 			}
+			
+.center-button {
+  display: flex;
+  justify-content: center;
+}
 
 /* Button */
 
