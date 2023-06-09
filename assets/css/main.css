@@ -2125,6 +2125,7 @@ input, select, textarea {
 .center-button {
   display: flex;
   justify-content: center;
+  margin-top: 0.5em;
 }
 
 /* Button */
