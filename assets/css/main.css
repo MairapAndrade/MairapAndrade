@@ -2573,7 +2573,7 @@ input, select, textarea {
 					border-top: solid 2px;
 					font-size: 2.5em;
 					font-weight: 900;
-					letter-spacing: 0.2em;
+					letter-spacing: 0.025em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
