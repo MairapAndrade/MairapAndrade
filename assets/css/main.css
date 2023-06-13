@@ -2264,6 +2264,42 @@ input, select, textarea {
 			padding: 4em;
 		}
 
+.wrapper.style5 {
+			background-color: #c7d0d1;
+			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			background-position: bottom left, bottom right;
+			background-repeat: no-repeat, no-repeat;
+			background-size: inline-block;
+			color: #5a4853;
+		}
+
+			.wrapper.style5 input[type="button"]:hover,
+			.wrapper.style5 input[type="submit"]:hover,
+			.wrapper.style5 input[type="reset"]:hover,
+			.wrapper.style5 button:hover,
+			.wrapper.style5 .button:hover {
+				background: rgba(255, 255, 255, 0.15) !important;
+			}
+
+			.wrapper.style5 input[type="button"].primary,
+			.wrapper.style5 input[type="submit"].primary,
+			.wrapper.style5 input[type="reset"].primary,
+			.wrapper.style5 button.primary,
+			.wrapper.style5 .button.primary {
+				background: #fff;
+				border-color: #fff;
+				color: #c7d0d1 !important;
+			}
+
+				.wrapper.style5 input[type="button"].primary:hover,
+				.wrapper.style5 input[type="submit"].primary:hover,
+				.wrapper.style5 input[type="reset"].primary:hover,
+				.wrapper.style5 button.primary:hover,
+				.wrapper.style5 .button.primary:hover {
+					border-color: inherit !important;
+					color: #fff !important;
+				}
+
 /* Header */
 
 	@-moz-keyframes reveal-header {
@@ -2593,6 +2629,115 @@ input, select, textarea {
 				}
 
 			#banner .inner footer {
+				margin: 2em 0 0 0;
+			}
+
+
+
+/* Banner2 */
+
+	@-moz-keyframes reveal-banner2 {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes reveal-banner2 {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-ms-keyframes reveal-banner2 {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes reveal-banner2 {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#banner2 {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #a1ddd5;
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		display: inline-block;
+		color: #fff;
+		cursor: default;
+		padding: 2em 0;
+		text-align: left;
+	}
+
+		#banner2 .inner {
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			background: rgba(52, 27, 43, 0.5);
+			color: #fff;
+			display: inline-block;
+			opacity: 0;
+			padding: 2em;
+			text-align: left;
+		}
+
+			#banner2 .inner header {
+				display: inline-block;
+				border-bottom: solid 2px;
+				border-top: solid 2px;
+				margin: 0 0 2em 0;
+				padding: 3px 0 3px 0;
+			}
+
+				#banner2 .inner header h2 {
+					border-bottom: solid 2px;
+					border-top: solid 2px;
+					font-size: 2.25em;
+					font-weight: 900;
+					letter-spacing: 0.05em;
+					margin: 0;
+					padding-left: 0.05em;
+					position: relative;
+					text-transform: uppercase;
+				}
+
+			#banner2 .inner p {
+				letter-spacing: 0.1em;
+				margin: 0;
+				text-transform: uppercase;
+			}
+
+				#banner2 .inner p a {
+					color: inherit;
+					font-weight: 400;
+					text-decoration: none;
+				}
+
+			#banner2 .inner footer {
 				margin: 2em 0 0 0;
 			}
 
