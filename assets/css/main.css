@@ -1860,6 +1860,10 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 		}
+		
+		.image.no-overlay:before {
+  display: none;
+}
 
 		.image.fit {
 			display: block;
